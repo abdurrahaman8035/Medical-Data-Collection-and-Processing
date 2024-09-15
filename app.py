@@ -31,7 +31,7 @@ model2.fit(x2_train,y2_train)
 
 #Diabetes Page
 if rad=="Diabetes Section":
-    st.header("Know If You Are Affected By Diabetes")
+    st.header("Measure risk of Diabetes for Patient")
     st.write("All The Values Should Be In Range Mentioned")
     glucose=st.number_input("Enter Your Glucose Level (0-200)",min_value=0,max_value=200,step=1)
     insulin=st.number_input("Enter Your Insulin Level In Body (0-850)",min_value=0,max_value=850,step=1)
@@ -57,7 +57,7 @@ model3.fit(x3_train,y3_train)
 
 #Heart Disease Page
 if rad=="Heart Disease Section":
-    st.header("Know If You Are Affected By Heart Disease")
+    st.header("Measure risk of Heart Disease for Patient")
     st.write("All The Values Should Be In Range Mentioned")
     chestpain=st.number_input("Rate Your Chest Pain (1-4)",min_value=1,max_value=4,step=1)
     bp=st.number_input("Enter Your Blood Pressure Rate (95-200)",min_value=95,max_value=200,step=1)
