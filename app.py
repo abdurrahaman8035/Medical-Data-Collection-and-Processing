@@ -13,7 +13,6 @@ if rad=="Home":
     st.image("Medical Prediction Home Page.jpg")
     st.text("Project By:")
     st.text("Supervised By:")
-    st.text("")
     st.text("The Following Diseases are Predicted based on Medical information provided->")
     
     st.text("1. Diabetes Predictions")
