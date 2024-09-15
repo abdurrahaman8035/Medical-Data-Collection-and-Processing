@@ -5,16 +5,19 @@ import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
-rad=st.sidebar.radio("Navigation Menu",["Home","Covid-19","Diabetes","Heart Disease","Plots"])
+rad=st.sidebar.radio("Navigation Menu",["Home","Diabetes Section","Heart Disease Section","Plots"])
 
 #Home Page
 if rad=="Home":
-    st.title("Medical Predictions App")
+    st.title("Intelligent Tool for Medical Collection and Processing")
     st.image("Medical Prediction Home Page.jpg")
-    st.text("The Following Disease Predictions Are Available ->")
-    st.text("1. Covid-19 Infection Predictions")
-    st.text("2. Diabetes Predictions")
-    st.text("3. Heart Disease Predictions")
+    st.text("Project By:")
+    st.text("Supervised By:")
+    st.text("")
+    st.text("The Following Diseases are Predicted based on Medical information provided->")
+    
+    st.text("1. Diabetes Predictions")
+    st.text("2. Heart Disease Predictions")
 
 #Covid-19 Prediction
 df1=pd.read_csv("Covid-19 Predictions.csv")
