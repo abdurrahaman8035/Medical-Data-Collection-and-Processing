@@ -67,7 +67,7 @@ if rad=="Heart Disease Section":
 
     if st.button("Predict"):
         if str(prediction3)=="Presence":
-            st.warning("You Might Be Affected By Diabetes")
+            st.warning("You Might Be Affected By Heart Disease")
         elif str(prediction3)=="Absence":
             st.success("You Are Safe")
                                         
